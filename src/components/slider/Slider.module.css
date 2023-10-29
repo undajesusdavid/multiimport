@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.img{
+    width: 100%;
+}
+
+.slide{
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.slide.active{
+    opacity: 1;
+}
+
+
+.iconrow{
+    font-size: 5px;
+    border: 1px solid white;
+    min-height: 70px;
+    min-width: 25px;
+    padding: 10;
+    cursor: pointer;
+    position: absolute;
+    top:60%;
+    color:white;
+}
+
+.iconrow.left{
+    left:0;
+}
+.iconrow.right{
+    right:0;
+}
+
