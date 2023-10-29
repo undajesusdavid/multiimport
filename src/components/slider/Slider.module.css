@@ -48,7 +48,8 @@
 
 @media (max-width: 610px) {
     .container{
-        width: 100%;
-        min-height: 90vh;  
+        
+        min-height: 90vh !important;
+          
     }
 }
